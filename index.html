@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>papersteroids</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        canvas {
+          display: block;
+          margin: 100px auto;
+          background: #fff url(images/paper.jpg) top left no-repeat;
+          background-size: cover;
+          box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="playfield" width=800 height=600></canvas>
+
+    <script src="javascript/vendor/jquery.min.js"></script>
+    <script src="javascript/vendor/underscore.js"></script>
+    <script src="javascript/wafex.js"></script>
+    <script src="javascript/game.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    new Game('#playfield')
+    </script>
+ 
+    </body>
+</html>
