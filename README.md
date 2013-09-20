@@ -1,0 +1,1 @@
+Just a simple example on how to use the Web Audio API to generate simple sound effects without the help of external assets.
